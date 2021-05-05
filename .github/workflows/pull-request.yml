@@ -19,7 +19,7 @@ jobs:
         uses: vtex/danger@master
         env:
           GITHUB_TOKEN: '${{ secrets.GITHUB_TOKEN }}'
-          REQUIRE_CHANGELOG_VERSION: true
+          REQUIRE_CHANGELOG_VERSION: false
   io-app-test:
     name: IO app test
     runs-on: ubuntu-latest
